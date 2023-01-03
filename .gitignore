@@ -1,14 +1,10 @@
 *.log
 node_modules
+dist
+.parcel-cache
+yarn-lock
 .DS_Store
-coverage
-/commonjs/
-/esm/
-/umd/
-/.out/
 .cache
-/npm-shrinkwrap.json
-/package-lock.json
 /.idea/
 /storybook-static/
 .eslintcache
