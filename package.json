@@ -1,5 +1,5 @@
 {
-  "name": "@parrot-hq/parrot-ui",
+  "name": "@parrot-co/parrot-ui",
   "description": "React UI components by Parrot built on top of react-aria (https://react-spectrum.adobe.com/react-aria/index.html",
   "contributors": [
     "sams3pi0l"
@@ -24,7 +24,6 @@
   },
   "author": "sams3pi0l",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "yarn storybook",
     "build": "parcel build",
