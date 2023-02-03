@@ -1,5 +1,5 @@
 import React from "react";
-import { styled } from "stitches/stitches.config";
+import { styled } from "../../stitches/stitches.config";
 
 const StyledBox = styled("div", {
   background: "red",
