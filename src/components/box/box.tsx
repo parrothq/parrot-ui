@@ -1,8 +1,7 @@
 import React from "react";
 import { styled } from "../../stitches/stitches.config";
 
-const StyledBox = styled("div", {
-  background: "red",
+const Box = styled("div", {
   height: 100,
   width: 500,
   variants: {
@@ -17,15 +16,19 @@ const StyledBox = styled("div", {
         position: "fixed",
       },
     },
+
+    stretchX: {
+      true: {
+        width: "100%",
+      },
+    },
+
+    stretchY: {
+      true: {
+        height: "100%",
+      },
+    },
   },
 });
-
-type BoxProps = React.ComponentProps<typeof StyledBox>;
-
-const Box = React.forwardRef<HTMLDivElement, BoxProps>((props, ref) => {
-  return <StyledBox ref={ref} {...props}></StyledBox>;
-});
-
-Box.displayName = "Box";
 
 export default Box;
