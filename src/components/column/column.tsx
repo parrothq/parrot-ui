@@ -1,9 +1,9 @@
 import { styled } from "../../stitches/stitches.config";
 import { Flex } from "../flex";
 
-const GridItem = styled(Flex, {
+const Column = styled(Flex, {
   variants: {
-    colSpan: {
+    span: {
       1: { gridColumn: "span 1" },
       2: { gridColumn: "span 2" },
       3: { gridColumn: "span 3" },
@@ -20,4 +20,4 @@ const GridItem = styled(Flex, {
   },
 });
 
-export default GridItem;
+export default Column;

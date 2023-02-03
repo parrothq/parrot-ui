@@ -1,13 +1,13 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import Flex from "./flex";
+import Grid from "./grid";
 
 export default {
-  title: "Flex",
-  component: Flex,
-} as ComponentMeta<typeof Flex>;
+  title: "Grid",
+  component: Grid,
+} as ComponentMeta<typeof Grid>;
 
-const Template: ComponentStory<typeof Flex> = (args) => <Flex {...args} />;
+const Template: ComponentStory<typeof Grid> = (args) => <Grid {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};
